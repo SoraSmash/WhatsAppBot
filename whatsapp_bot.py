@@ -46,7 +46,7 @@ def help():
     wha_txt.send_keys(Keys.SHIFT+Keys.ENTER)
     wha_txt.send_keys("- */Sorabot spam 3 Hello World*: mi farà spammare un numero di volte, scelto da te, un messaggio, in questo caso spammerò 3 volte 'Hello World'")
     wha_txt.send_keys(Keys.SHIFT+Keys.ENTER)
-    wha_txt.send_keys("- */Sorabot pokémon 4*: ti invierò un'immagine del pokémon corrispondente al numero del pokédex da te inviato, dandoti anche una sua breve descrizione.")
+    wha_txt.send_keys("- */Sorabot indovina la parola*: farò iniziare una nuova partita per il gioco indovina la parola.")
     driver_wha.find_element_by_xpath("//button[@class='x1c4vz4f x2lah0s xdl72j9 xfect85 x1iy03kw x1lfpgzf']").click() #Pulsante per inviare il messaggio
 
 #Funzione che conta inviando un messaggio per ogni numero da min a max
